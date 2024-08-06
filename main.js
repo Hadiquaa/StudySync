@@ -9,3 +9,13 @@ menuBtn.addEventListener('click', () => {
 navClose.addEventListener('click', () => {
   navMenu.classList.remove('show-menu');
 });
+
+// scroll reveal
+const sr = ScrollReveal({
+  origin: 'left',
+  distance: '60px',
+  duration: 2500,
+  delay: 300,
+})
+
+sr.reveal('.main-content');
