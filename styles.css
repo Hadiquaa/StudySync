@@ -459,6 +459,7 @@ body{
         text-align: left;
         align-items: flex-start;
         margin-left: 3rem;
+        width:50%;
     }
     .main-title{
         padding: 0;
